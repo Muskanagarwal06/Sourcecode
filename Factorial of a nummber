@@ -1,0 +1,11 @@
+#Factorial of a number
+fact=1
+num=int(input("Enter number whose factorial you want to calculate"))
+while num>1:
+    fact = fact*num
+    num=num-1
+print("Factorial of the given number is",fact)
+       
+
+       
+   
